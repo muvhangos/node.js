@@ -1,0 +1,14 @@
+{
+  "name": "first_express_project",
+  "version": "1.0.0",
+  "description": "web development using express ",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "Lesedi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
