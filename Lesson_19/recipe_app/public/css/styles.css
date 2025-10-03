@@ -1,0 +1,92 @@
+/* ----- General Styles ----- */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ----- Navigation Bar ----- */
+nav {
+  background-color: #3b49df;
+  padding: 10px 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #3b49df;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #2b36bf;
+}
+
+/* ----- Form Container ----- */
+.data-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* ----- Form Title ----- */
+.data-form h2 {
+  text-align: left;
+  margin-bottom: 25px;
+  color: #444;
+  font-weight: 600;
+}
+
+/* ----- Labels ----- */
+.data-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* ----- Input Fields ----- */
+.data-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.data-form input:focus {
+  border-color: #3b49df;
+  outline: none;
+}
+
+/* ----- Submit Button ----- */
+.data-form button {
+  width: 100%;
+  background-color: #3b49df;
+  color: white;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.data-form button:hover {
+  background-color: #2b36bf;
+}
